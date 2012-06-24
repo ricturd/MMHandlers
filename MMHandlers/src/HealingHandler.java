@@ -12,7 +12,7 @@ public class HealingHandler extends GenericHandler {
   	}
 
   	public void onActivation(Location location, SpoutPlayer player) {
-  		Location loc = player.getLocation();
+  	Location loc = player.getLocation();
     	if (player.getHealth() == 20) return;
     	if (player.getHealth() >= 15) player.setHealth(20); else
     	player.setHealth(player.getHealth() + 5);
