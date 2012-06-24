@@ -14,12 +14,12 @@ public class PoisonHandler extends GenericHandler {
   	}
 
   	public void onActivation(Location location, SpoutPlayer player) {
-    Location loc = player.getLocation();
-    player.addPotionEffect(new PotionEffect(PotionEffectType.POISON, 100, 100));
-    Particle poisonParticle = new Particle(ParticleType.DRIPWATER, loc, new Vector(0.5D, 3.0D, 0.5D));
-    poisonParticle.setParticleBlue(0.0F).setParticleGreen(1.0F).setParticleRed(0.0F);
-    poisonParticle.setMaxAge(40).setAmount(15).setGravity(0.9F);
-    poisonParticle.spawn();
+    		Location loc = player.getLocation();
+   		player.addPotionEffect(new PotionEffect(PotionEffectType.POISON, 100, 100));
+   		Particle poisonParticle = new Particle(ParticleType.DRIPWATER, loc, new Vector(0.5D, 3.0D, 0.5D));
+   		poisonParticle.setParticleBlue(0.0F).setParticleGreen(1.0F).setParticleRed(0.0F);
+   		poisonParticle.setMaxAge(40).setAmount(15).setGravity(0.9F);
+   		poisonParticle.spawn();
   	}
 
   	public void shutdown() {
