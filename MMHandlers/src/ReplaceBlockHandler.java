@@ -13,10 +13,8 @@ public class ReplaceBlockHandler extends GenericHandler {
   	public void onActivation(Location loc, SpoutPlayer player) {
   		if (loc == null) return;
   		Block b = loc.getBlock();
-  		b.breakNaturally();
-  		b.getDrops().remove(true);
-  		Block b2 = loc.getBlock();
-  		b2.setType(Material.GLOWSTONE);	
+  		// Why not working for custom blocks?
+  		b.setType(Material.GLOWSTONE);	
   	}
 
   	public void shutdown() {
