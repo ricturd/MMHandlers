@@ -8,6 +8,9 @@ Lclick:
 Rclick:
   Handler: LightingHandler
 
+
+Example2:
+
 Type: Block
 WalkAction:
   Handler: PoisonHandler
