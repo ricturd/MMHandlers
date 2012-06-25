@@ -10,6 +10,7 @@ public class ExplosionBlockHandler extends GenericHandler {
 	}
 
 	public void onActivation(Location location, SpoutPlayer player) {
+		// Create explosion on block location
 		SpoutBlock block = (SpoutBlock)location.getBlock();
 		block.getWorld().createExplosion(location, 7.0F);
 	}
