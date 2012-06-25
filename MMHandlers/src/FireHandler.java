@@ -10,8 +10,11 @@ public class FireHandler extends GenericHandler {
 	}
 
 	public void onActivation(Location location, SpoutPlayer player) {
-		Location loc = player.getLocation();
+		// Set player on fire
 		player.setFireTicks(80);
+		
+		// Play mobspawner flame effects
+		Location loc = player.getLocation();
 		player.getWorld().playEffect(loc, Effect.MOBSPAWNER_FLAMES, 0, 2);
 	}
 
