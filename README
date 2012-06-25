@@ -1,1 +1,15 @@
-This are handlers made for MoreMaterials.
+This are handlers made for MoreMaterials. To use, you should have to download MoreMaterialsPlus.
+Download the handlers here: https://github.com/Cybermaxke/MMHandlers/tree/master/MMHandlers/bin
+Example:
+
+Type: Item
+Lclick:
+  Handler: HealingHandler
+Rclick:
+  Handler: LightingHandler
+
+Type: Block
+WalkAction:
+  Handler: PoisonHandler
+RedstonePowered:
+  Handler: ExplosionHandler
