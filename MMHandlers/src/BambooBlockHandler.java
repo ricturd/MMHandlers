@@ -12,7 +12,7 @@ import org.getspout.spoutapi.inventory.SpoutItemStack;
 import org.getspout.spoutapi.material.CustomBlock;
 import org.getspout.spoutapi.player.SpoutPlayer;
 
-
+///////////////////////////////////////////////FAIL\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 public class BambooBlockHandler extends GenericHandler {
 	
 	public void init(Main main) {
