@@ -9,22 +9,16 @@ import org.bukkit.event.block.BlockBurnEvent;
 import org.bukkit.event.block.BlockIgniteEvent;
 import org.bukkit.event.block.BlockRedstoneEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
-import org.getspout.spoutapi.block.SpoutBlock;
-import org.getspout.spoutapi.inventory.SpoutItemStack;
-import org.getspout.spoutapi.material.Material;
-import org.getspout.spoutapi.player.SpoutPlayer;
 
 public class ExplosionBlockHandler extends GenericHandler {
 	
-	private MoreMaterials plugin;
-	
 	@Override
 	public void init(MoreMaterials plugin) {
-		this.plugin = plugin;
 	}
 
 	@Override
-	public void onActivation(Event event, Map<String, Object> config) {
+	public void onActivation(Event event, Map<String, Object> config) 
+	{
 		
 		World world = null;
 		Location loc = null;
@@ -62,7 +56,7 @@ public class ExplosionBlockHandler extends GenericHandler {
 		else return; // if this is not one of these events, the block is not supposed to explode
 
 		world.createExplosion(loc, (float) config.get("power"), (boolean) config.get("setOnFire"));
-		
+	}
 
 	public void shutdown() {
 	}
