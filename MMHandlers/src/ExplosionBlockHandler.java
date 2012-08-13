@@ -1,3 +1,10 @@
+/**
+ * @version 1.1
+ * @author tristan Roche (Stan_fear)
+ * 
+ * for MoreMaterials 1.8 and later
+ */
+
 import java.util.Map;
 
 import net.morematerials.MoreMaterials;
@@ -24,7 +31,7 @@ public class ExplosionBlockHandler extends GenericHandler {
 		Location loc = null;
 		
 		// checking all possible way to make the block explode
-		// (so we can get the location of the block)
+		// (so we can get the location of the block) 
 		if(event instanceof PlayerInteractEvent)
 		{
 			if (((PlayerInteractEvent) event).hasBlock()) // if the event involve a block
@@ -53,7 +60,7 @@ public class ExplosionBlockHandler extends GenericHandler {
 			world = ((BlockIgniteEvent) event).getBlock().getWorld();
 			loc = ((BlockIgniteEvent) event).getBlock().getLocation();			
 		}
-		else return; // if this is not one of these events, the block is not supposed to explode
+		else return; // if this is not one of these events, the block is not supposed to explode 
 
 		world.createExplosion(loc, (float) config.get("power"), (boolean) config.get("setOnFire"));
 	}
