@@ -62,6 +62,7 @@ public class ExplosionBlockHandler extends GenericHandler {
 		}
 		else return; // if this is not one of these events, the block is not supposed to explode 
 
+		//creating the explosion
 		world.createExplosion(loc, (float) config.get("power"), (boolean) config.get("setOnFire"));
 	}
 
