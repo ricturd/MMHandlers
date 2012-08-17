@@ -37,7 +37,7 @@ Handlers:
 __<event>: #name of the event that will trigger the handler
 ____- Name: "ReplaceBlockHandler"
 ______SMPname: <Block SMP Name> # The  name of the SMP of the block you want to use to replace this block
-______blockName:<Block name> # The name the block to use to replace the curent block
+______blockName:<Block name> # The name the block to use to replace the curent block (must be a customblock)
 
 
 
