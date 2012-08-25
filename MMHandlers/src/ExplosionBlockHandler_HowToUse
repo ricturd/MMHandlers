@@ -18,8 +18,14 @@ This file tell how to use the handler
 		----- ExplosionBlockHandler v1.1 -----
 originally programmed by Cybermaxke and updated by Stan_Fear
 
-
+ > what is it meant to do ?
+ 
+allow you to make blocks or items explode !
+power of the explosion and whether or not the explosion set block on fire configurable
+ 
  > How to use ?
+
+0/ download the handler
  
 1/ put the handler in your handler folder (serveurRoot/plugins/MoreMaterials/Handlers/)
 

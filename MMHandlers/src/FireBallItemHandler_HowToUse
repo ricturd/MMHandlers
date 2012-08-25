@@ -18,7 +18,10 @@ This file tell how to use the handler
 		----- FireBallItemHandler v1.1 -----
 originally programmed by Cybermaxke and updated by Stan_Fear
 
+ > what is it meant to do ?
 
+allow the player interacting with the bloc or the item to launch a FireBball
+ 
  > How to use ?
  
 0/ download the handler

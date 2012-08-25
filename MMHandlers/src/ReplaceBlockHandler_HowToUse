@@ -18,6 +18,13 @@ This file tell how to use the handler
 		----- ReplaceBlockHandler v1.1 -----
 originally programmed by Cybermaxke and updated by Stan_Fear
 
+ > what is it meant to do ?
+ 
+allow you to replace a block on some events : 
+ - interacting with the player
+ - block powered by redstone
+ - block burning
+ - block ignited
 
  > How to use ?
  
