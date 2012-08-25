@@ -39,11 +39,6 @@ originally programmed by Cybermaxke and updated by Stan_Fear
     
 Handlers:
 __<event>: #name of the event that will trigger the handler
-____- Name: "ExplosionBlockHandler"
-______power: <The power of the explosion you want> # must be float, where 4F is the TNT power
-______setOnFire:<true|false> # whether the explosion must set nearby block into fire 
-                             # (should be set to true for a napalm bomb) 
-
-
+____- Name: "FireHandler"
 
 
